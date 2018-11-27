@@ -14,6 +14,15 @@
 		435949C921AD7A770066AE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435949C721AD7A770066AE29 /* LaunchScreen.storyboard */; };
 		435949D421AD7A770066AE29 /* SimplePageSideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435949D321AD7A770066AE29 /* SimplePageSideTests.swift */; };
 		435949DF21AD7A770066AE29 /* SimplePageSideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435949DE21AD7A770066AE29 /* SimplePageSideUITests.swift */; };
+		435949F421AD7C470066AE29 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 435949EE21AD7C470066AE29 /* image1.jpg */; };
+		435949F521AD7C470066AE29 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 435949EF21AD7C470066AE29 /* image2.jpg */; };
+		435949F621AD7C470066AE29 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 435949F021AD7C470066AE29 /* image3.jpg */; };
+		435949F721AD7C470066AE29 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 435949F121AD7C470066AE29 /* image4.jpg */; };
+		435949F821AD7C470066AE29 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 435949F221AD7C470066AE29 /* image5.jpg */; };
+		435949F921AD7C470066AE29 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 435949F321AD7C470066AE29 /* image6.jpg */; };
+		435949FD21AD7C7E0066AE29 /* JAPagerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435949FA21AD7C7D0066AE29 /* JAPagerCell.xib */; };
+		435949FE21AD7C7E0066AE29 /* JAPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435949FB21AD7C7E0066AE29 /* JAPageControl.swift */; };
+		435949FF21AD7C7E0066AE29 /* JAPagerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435949FC21AD7C7E0066AE29 /* JAPagerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		435949DA21AD7A770066AE29 /* SimplePageSideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePageSideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		435949DE21AD7A770066AE29 /* SimplePageSideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePageSideUITests.swift; sourceTree = "<group>"; };
 		435949E021AD7A770066AE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435949EE21AD7C470066AE29 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		435949EF21AD7C470066AE29 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		435949F021AD7C470066AE29 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		435949F121AD7C470066AE29 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		435949F221AD7C470066AE29 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		435949F321AD7C470066AE29 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		435949FA21AD7C7D0066AE29 /* JAPagerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JAPagerCell.xib; sourceTree = "<group>"; };
+		435949FB21AD7C7E0066AE29 /* JAPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAPageControl.swift; sourceTree = "<group>"; };
+		435949FC21AD7C7E0066AE29 /* JAPagerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAPagerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,8 @@
 		435949BD21AD7A670066AE29 /* SimplePageSide */ = {
 			isa = PBXGroup;
 			children = (
+				435949ED21AD7C470066AE29 /* DumImage */,
+				435949EC21AD7A880066AE29 /* Class */,
 				435949BE21AD7A670066AE29 /* AppDelegate.swift */,
 				435949C021AD7A670066AE29 /* ViewController.swift */,
 				435949C221AD7A670066AE29 /* Main.storyboard */,
@@ -123,6 +143,29 @@
 				435949E021AD7A770066AE29 /* Info.plist */,
 			);
 			path = SimplePageSideUITests;
+			sourceTree = "<group>";
+		};
+		435949EC21AD7A880066AE29 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				435949FB21AD7C7E0066AE29 /* JAPageControl.swift */,
+				435949FC21AD7C7E0066AE29 /* JAPagerCell.swift */,
+				435949FA21AD7C7D0066AE29 /* JAPagerCell.xib */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		435949ED21AD7C470066AE29 /* DumImage */ = {
+			isa = PBXGroup;
+			children = (
+				435949EE21AD7C470066AE29 /* image1.jpg */,
+				435949EF21AD7C470066AE29 /* image2.jpg */,
+				435949F021AD7C470066AE29 /* image3.jpg */,
+				435949F121AD7C470066AE29 /* image4.jpg */,
+				435949F221AD7C470066AE29 /* image5.jpg */,
+				435949F321AD7C470066AE29 /* image6.jpg */,
+			);
+			path = DumImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +273,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				435949C921AD7A770066AE29 /* LaunchScreen.storyboard in Resources */,
+				435949F821AD7C470066AE29 /* image5.jpg in Resources */,
+				435949FD21AD7C7E0066AE29 /* JAPagerCell.xib in Resources */,
+				435949F521AD7C470066AE29 /* image2.jpg in Resources */,
+				435949F421AD7C470066AE29 /* image1.jpg in Resources */,
+				435949F621AD7C470066AE29 /* image3.jpg in Resources */,
+				435949F721AD7C470066AE29 /* image4.jpg in Resources */,
+				435949F921AD7C470066AE29 /* image6.jpg in Resources */,
 				435949C621AD7A770066AE29 /* Assets.xcassets in Resources */,
 				435949C421AD7A670066AE29 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +308,8 @@
 			files = (
 				435949C121AD7A670066AE29 /* ViewController.swift in Sources */,
 				435949BF21AD7A670066AE29 /* AppDelegate.swift in Sources */,
+				435949FF21AD7C7E0066AE29 /* JAPagerCell.swift in Sources */,
+				435949FE21AD7C7E0066AE29 /* JAPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
